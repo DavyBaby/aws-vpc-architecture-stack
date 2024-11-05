@@ -33,7 +33,6 @@ Deploying the Stack
 Clone this repository to your local machine:
 
 bash
-Copy code
 git clone https://github.com/yourusername/aws-vpc-architecture-stack.git
 cd aws-vpc-architecture-stack
 Modify the vpc-architecture.yaml template as needed. For example:
@@ -45,7 +44,6 @@ Deploy the stack using the AWS CLI or AWS Management Console.
 Using the AWS CLI:
 
 bash
-Copy code
 aws cloudformation create-stack --stack-name MultiVPCArchitectureStack --template-body file://vpc-architecture.yaml --capabilities CAPABILITY_NAMED_IAM
 Wait for the stack to be created. You can monitor the status in the AWS CloudFormation console.
 
